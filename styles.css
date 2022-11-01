@@ -1,3 +1,36 @@
+/* p:nth-of-type(2n -1) {
+    color: orange
+} */
+
+/* 2n - 1 is odd numbers */
+
+/* p:last-child {
+    color: purple;
+} */
+
+p::first-letter {
+    font-size: 2em;
+}
+p::before {
+    content: ">";
+}
+
+p::after {
+    content: "!";
+}
+
+input:focus {
+    outline: 2px solid blue;
+}
+
+input:invalid:not(:focus) {
+    outline:  2px solid red;
+}
+
 a:link {
- color: red;
+    color: red;
+}
+
+a:visited {
+    color: green;
 }
