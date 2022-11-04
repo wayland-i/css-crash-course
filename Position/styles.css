@@ -10,6 +10,9 @@ body > p {
 }
 
 #box {
+    position: sticky;
+    top: 20px;
+    left: 100px;
     width: 15rem;
     height: 10rem;
     border: 2px solid black;
