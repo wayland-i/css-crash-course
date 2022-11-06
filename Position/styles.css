@@ -7,7 +7,8 @@ p {
 
 body > p {
     background-color: lightblue;
-    float: right;
+    width: 10rem;
+    /* float: right; */
 }
 
 section {
@@ -15,19 +16,15 @@ section {
 }
 
 #box {
-    float: left;
-    /* position: absolute; */
-    top: -20px;
-    left: 100px;
-    width: 15rem;
+    /* float: left; */
+    display: inline-block;
     height: 10rem;
-    /* z-index: 6; */
     border: 2px solid black;
     background-color: lightgreen;
 }
 
 #long {
-    clear: left;
+    /* clear: left; */
     /* position: relative; */
     /* z-index: 4; */
     background-color: lightyellow;
