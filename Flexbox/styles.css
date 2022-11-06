@@ -1,24 +1,27 @@
-section > div {
-    font-size: 3em;
-    font-weight: bold;
-    color: white;
-    border: 8px solid black;
-    height: 150px;
+section {
+    height: 90vh;
+    border: 2px dotted black;
 }
 
 .red {
+    height: 75px;
     background-color: red;
 }
 
 .green {
+    height: 125px;
     background-color: green;
 }
 
 .blue {
+    height: 100px;
     background-color: blue;
 }
 
-section {
-    border: 3px dotted black;
-    padding-bottom: 20vh;
+div {
+    border: 5px solid black;
+    padding: 0.5rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
 }
