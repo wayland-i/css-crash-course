@@ -1,14 +1,26 @@
 section {
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: space-around;
+    gap: 10px;
     height: 90vh;
     border: 2px dotted black;
 }
 
 .red {
+    order: 0;
     height: 75px;
     background-color: red;
 }
 
 .green {
+    flex-basis: 100vw;
+    flex-shrink: 1;
+    flex: 1 0 200px;
     height: 125px;
     background-color: green;
 }
