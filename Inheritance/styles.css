@@ -3,3 +3,8 @@ main {
     color: red;
 }
 
+button {
+    color: unset;
+    border: revert;
+}
+
