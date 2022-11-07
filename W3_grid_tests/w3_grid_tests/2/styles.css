@@ -1,0 +1,31 @@
+body{
+    display: grid;
+    grid-template-rows: 3fr 5fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 100vh;
+}
+
+body > * {
+        border: 2px solid lightblue;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    grid-column: 1/4;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+
+}
+
+footer {
+    grid-column: 1/4;
+}
