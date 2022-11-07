@@ -1,0 +1,13 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 80vh;
+    gap: 10px;
+}
+
+#grid-container > * {
+    border: 2px solid lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
