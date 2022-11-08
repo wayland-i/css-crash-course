@@ -1,8 +1,9 @@
 body {
     display: grid;
-    gap: 10px;
     grid-template-columns: 3fr 1fr 1fr;
     grid-template-rows: 1fr 3fr 1fr;
+    gap: 10px;
+    padding: 1em;
 }
 
 body > * {
@@ -29,4 +30,34 @@ aside {
 footer {
     grid-column: 1 / 4;
     order: 5;
+}
+
+
+@media (max-width: 800px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
+    }
+
+    header {
+        order: 1;
+        grid-column: initial;
+    }
+    
+    nav {
+        order: 4;
+    }
+    
+    main {
+        order: 2;
+    }
+    
+    aside {
+        order: 3;
+    }
+    
+    footer {
+        order: 5;
+        grid-column: initial;
+    }
 }
