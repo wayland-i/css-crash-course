@@ -61,3 +61,10 @@ footer {
         grid-column: initial;
     }
 }
+
+
+@media (max-width: 600px) {
+    aside {
+        display: none;
+    }
+}
