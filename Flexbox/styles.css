@@ -1,8 +1,8 @@
 section {
     display: flex;
-    /* flex-direction: row;
-    flex-wrap: wrap; */
-    flex-flow: row wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: flex-start;
     align-content: space-around;
